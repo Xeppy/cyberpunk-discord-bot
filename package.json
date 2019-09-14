@@ -1,0 +1,18 @@
+{
+  "name": "johnny_silverhand",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.1.0",
+    "node-opus": "^0.3.2",
+    "ytdl-core": "^0.29.7"
+  }
+}

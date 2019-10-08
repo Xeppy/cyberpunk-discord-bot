@@ -6,5 +6,5 @@ exports.run = async (client, message, args, ops, msg, sender) => {
 	let data = ops.active.get(message.guild.id) || {};
 
 	const playing = data.connection.dispatcher;
-	playing.end();
+	playing.resume();
 };
